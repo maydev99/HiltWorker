@@ -21,12 +21,6 @@
             </intent-filter>
         </activity>
 
-        <!-- If you want to disable androidx.startup completely. -->
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:authorities="${applicationId}.androidx-startup"
-            tools:node="remove">
-        </provider>
     </application>
 
 </manifest>
